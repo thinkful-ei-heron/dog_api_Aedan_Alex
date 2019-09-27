@@ -1,0 +1,24 @@
+body {
+  width: 1000px;
+  
+}
+#breedPic{
+  max-height: 500px;
+}
+#js-dogs {
+  position: relative;
+  float: left;
+  width:  1000px;
+  height: 1000px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+.dog-gallery {
+  max-width: 100px;
+  max-height: 100px;
+}
